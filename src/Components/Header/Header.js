@@ -11,7 +11,7 @@ function Home() {
 <nav className='container'>
 <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">Quize Mate</Navbar.Brand>
+        <Navbar.Brand href="/">Quize Mate</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

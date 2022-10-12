@@ -3,9 +3,10 @@ import { useLoaderData } from 'react-router-dom';
 import Question from '../Question/Question';
 
 const Questions = () => {
+
     const questions = useLoaderData();
-    // console.log(questions);
-    const questionsData =  questions.data.questions;
+    console.log(questions.data.questions)
+    const questionsData = questions?.data?.questions;
     return (
         <div>
             <h1>Answer All The Questions Properly.</h1>
@@ -17,7 +18,7 @@ const Questions = () => {
                     ></Question>)
                 }
             </div>
-            
+
         </div>
 
     );
