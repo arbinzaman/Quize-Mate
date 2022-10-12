@@ -1,7 +1,6 @@
 import './App.css';
 import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 import Main from './Components/Layouts/Main'
-import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Blogs from './Components/Blogs/Blogs';
 import Statictis from './Components/Statictis/Statictis';
