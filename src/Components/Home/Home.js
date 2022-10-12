@@ -25,7 +25,7 @@ const Home = () => {
 
             </section>
 
-            <div >
+            <div className='container gg'>
 
                 {
                     quizes.data.map(quiz => <Quiz

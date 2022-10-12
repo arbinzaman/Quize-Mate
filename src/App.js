@@ -29,8 +29,11 @@ function App() {
         },
         {
           path: '/statictis',
+          loader : () => fetch('https://openapi.programming-hero.com/api/quiz'),
           element: <Statictis></Statictis>
         },
+
+       
         // {
         //   path: '/questions',
         //   element: <Questions></Questions>
@@ -55,7 +58,10 @@ function App() {
 
       ]
     },
-
+     {
+      path:"*",
+      element:<div><h1>404 Not Found</h1></div>
+     }
 
   ]);
 

@@ -21,6 +21,11 @@ div#basic-navbar-nav {
     a{
         margin-right:17px;
     }
+    div {
+        display: grid;
+        grid: repeat();
+        grid-row-start: none;
+    }
 
   }
   @media only screen and (max-width: 300px) {
@@ -30,6 +35,7 @@ div#basic-navbar-nav {
     a{
         margin-right:0;
     }
+   
 }
   @media only screen and (max-width: 990px) {
     div#basic-navbar-nav {
@@ -38,11 +44,32 @@ div#basic-navbar-nav {
     a{
         margin-right:0;
     }
+    div {
+        display: grid;
+        grid: repeat();
+        grid-row-start: none;
+    }
 }
 
 div {
     display: grid;
     grid: repeat();
 
-    grid-row-start: none;
+ 
 }
+
+@media only screen and (max-width: 2000px) {
+    div#basic-navbar-nav {
+        margin-left: 400px;
+    }
+    a{
+        margin-right:17px;
+    }
+    div {
+        display: grid;
+        grid: repeat();
+        grid-row-start: none;
+    }
+
+  }
+

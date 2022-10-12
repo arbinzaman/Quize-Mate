@@ -16,7 +16,7 @@ function Home() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
           <Link to ='/'>Home</Link>
-          <Link to='/questions'>Questions</Link>
+     
           <Link to='/statictis'>Statictis</Link>
           <Link to='/blogs'>Blogs</Link>
           
