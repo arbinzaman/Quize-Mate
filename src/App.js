@@ -34,12 +34,7 @@ function App() {
         },
 
        
-        // {
-        //   path: '/questions',
-        //   element: <Questions></Questions>
-        // },
-
-
+        
         {
           path: "/questions/:questionsID",
           loader: async ({ params }) => {
