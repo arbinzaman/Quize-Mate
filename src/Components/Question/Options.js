@@ -27,5 +27,5 @@ const Option = ({ t, revealAns, c }) => {
         </label>
     );
 };
-
+ss
 export default Option;
