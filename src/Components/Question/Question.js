@@ -9,7 +9,7 @@ const Question = ({ questiones }) => {
     return (
         <div >
             <p>{question}</p>
-            <p className='cursor-pointer' onClick={() => setRevealAns(true)}>Eye button</p>
+            <button className='cursor-pointer' onClick={() => setRevealAns(true)}>Show Answer</button>
 
             <form>
                 {

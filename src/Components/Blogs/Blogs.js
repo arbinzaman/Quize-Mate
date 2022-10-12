@@ -3,7 +3,7 @@ import Accordion from 'react-bootstrap/Accordion';
 
 const Blogs = () => {
     return (
-        <div className='container'>
+        <div className='container d-block'>
             <h1 className='mt-5'>Recent Asked Questions</h1>
             <Accordion defaultActiveKey="0" className='mt-5 pt-5'>
                 <Accordion.Item eventKey="0">

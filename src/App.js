@@ -33,8 +33,6 @@ function App() {
         },
         // {
         //   path: '/questions',
-        //   loader: () => fetch('https://openapi.programming-hero.com/api/quiz/1'),
-
         //   element: <Questions></Questions>
         // },
 

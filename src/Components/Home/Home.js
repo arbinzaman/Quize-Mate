@@ -25,7 +25,7 @@ const Home = () => {
 
             </section>
 
-            {/* <div >
+            <div >
 
                 {
                     quizes.data.map(quiz => <Quiz
@@ -33,7 +33,7 @@ const Home = () => {
                         quiz={quiz}
                     ></Quiz>)
                 }
-            </div> */}
+            </div>
         </div>
 
     );
